@@ -1,0 +1,7 @@
+README.md
+setup.py
+team_7_analyse_eskom_package.egg-info/PKG-INFO
+team_7_analyse_eskom_package.egg-info/SOURCES.txt
+team_7_analyse_eskom_package.egg-info/dependency_links.txt
+team_7_analyse_eskom_package.egg-info/requires.txt
+team_7_analyse_eskom_package.egg-info/top_level.txt

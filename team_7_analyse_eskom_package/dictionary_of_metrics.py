@@ -1,5 +1,4 @@
 def dictionary_of_metrics(items):
-    # your code here
     """
    Calculates the mean, median, variance, standard deviation, minimum and maximum of of list of items
     
