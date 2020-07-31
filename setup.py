@@ -10,5 +10,5 @@ setup(
     install_requires=['numpy', 'pandas'],
     url='https://github.com/bmqhamane/team_7_analyse_eskom',
     author='<team_7_analyse>',
-    author_email='<bmqhamane@gmail.com>'
+    author_email='<@gmail.com>'
 )
