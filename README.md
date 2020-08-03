@@ -11,15 +11,9 @@ Standard code refinement has been applied selectively, trading refinement off wi
 
 Function 1: dictionary_of_metrics
 
-
-
 Function 2: five_num_summary
 
-
-
 Function 3: date_parser
-
-
 
 Function 4: extract_municipality_hashtags
     - Processes pandas dataframe (twitter data) to extract municipalities and hashtags contained in tweets.
