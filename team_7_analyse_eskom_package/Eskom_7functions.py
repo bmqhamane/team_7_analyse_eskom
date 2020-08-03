@@ -51,12 +51,14 @@ stop_words_dict = {
 
 """
 To do:
-- Refine functions
-- Create package
-- Add function descriptions
-- Add error handling code
-- Docstring (1-4 done)
-- Complete test.py assertions
+- Shorted package name (?)
+- Refine functions (read updated reame file)
+- Refine package
+- Add function descriptions (please use f4/5's format)
+- Add error handling code (if time)
+- Docstring (1-5 done)
+- Complete test.py assertionstests
+- Add __init__=__main__...
 """
 
 
