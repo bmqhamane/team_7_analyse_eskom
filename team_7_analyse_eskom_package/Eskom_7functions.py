@@ -51,6 +51,7 @@ stop_words_dict = {
 
 """
 To do:
+<<<<<<< HEAD
 - Shorted package name
 - Refine functions (read updated readme file)
 - Hide .egg-info from package (.gitignore)
@@ -60,6 +61,16 @@ To do:
 - Complete test.py assertions/tests
 - Complete if __init_ == __main__...
 - Populate readme with your function (use same format as F4/5)
+=======
+- Shorted package name (?)
+- Refine functions (read updated reame file)
+- Refine package
+- Add function descriptions (please use f4/5's format)
+- Add error handling code (if time)
+- Docstring (1-5 done)
+- Complete test.py assertionstests
+- Add __init__=__main__...
+>>>>>>> dev
 """
 
 

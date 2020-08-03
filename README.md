@@ -39,8 +39,10 @@ Function 7: stop_words_remover
 
 <span style="color: gray;">pip git+https://github.com/bmqhamane/team_7_analyse_eskom.git</span> 
 
-## Building this package locally
+## Where to get this package
 ---- 
+The source code for this package is hosted on github: git+https://github.com/bmqhamane/team_7_analyse_eskom_package.git
+
 <span style="color: gray;">python setup.py sdist</span> 
 
 
@@ -52,7 +54,7 @@ Function 7: stop_words_remover
 ----
 <span style="color: gray;">pip install --upgrade git+https://github.com/bmqhamane/team_7_analyse_eskom.git</span> 
 
-### How to use this package
+## How to use this package
 ----
 -describe usage and cases
 
