@@ -51,12 +51,15 @@ stop_words_dict = {
 
 """
 To do:
-- Refine functions
-- Create package
+- Shorted package name
+- Refine functions (read updated readme file)
+- Hide .egg-info from package (.gitignore)
 - Add function descriptions
-- Add error handling code
-- Docstring (1-4 done)
-- Complete test.py assertions
+- Add error handling code (if time)
+- Docstring (1-5 done)
+- Complete test.py assertions/tests
+- Complete if __init_ == __main__...
+- Populate readme with your function (use same format as F4/5)
 """
 
 
@@ -226,3 +229,8 @@ def stop_words_remover(df):
     df['Without Stop Words'] = Without_stopwords_list
 
     return df
+
+
+
+# Complete:
+# if __name__ == '__main__':
