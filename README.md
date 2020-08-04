@@ -25,8 +25,8 @@ Function 5: number_of_tweets_per_day
     - See docstring ([SHIFT]+[TAB]) for details.
 
 Function 6: word_splitter
-
-
+	- Processes pandas DataFrame (twitter data) and adds a new column with tweets as list of words.
+	- See docstring ([SHIFT]+[TAB]) for details.  
 
 Function 7: stop_words_remover
 
