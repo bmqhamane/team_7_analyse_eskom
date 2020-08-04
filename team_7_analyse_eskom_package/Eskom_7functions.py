@@ -229,6 +229,16 @@ def word_splitter(df):
 # Function 7:
 
 def stop_words_remover(df):
+    """
+    returns a pandas DataFrame with a new column ''Without Stop Words' that contains a list of tweeted words withoutout english stop words.
+    
+    Args:
+        df(pandas(pd) DataFrame): pd.DataFrame object with atleast one column:
+        'Tweets': Contains strings (pd.Series objects) of individual tweets (one tweet per value).
+    Returns:
+            new pandas DataFrame with a new column:
+            'Without Stop Words': Alist of separate words without stop words from stop_words_dict.
+    """
     Without_stopwords_list = []
     
     for index, row in df.iterrows():

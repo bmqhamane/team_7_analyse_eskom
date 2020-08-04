@@ -13,6 +13,8 @@ Function 1: dictionary_of_metrics
 ----
 
 Function 2: five_num_summary
+    - Given a list that contains only numerical entries. Takes in a list of integers and return a dictionary of : max, median, min, q1 and q3.
+    - see docstring ([SHIFT]+[TAB]) for details.
 
 ----
 
