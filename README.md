@@ -18,6 +18,8 @@ Function 2: five_num_summary
     - see docstring ([SHIFT]+[TAB]) for details.
 
 Function 3: date_parser
+     - return a list of strings where each element in the returned list contains only the date in the 'yyyy-mm-dd' format.
+     - See docstring ([SHIFT]+[TAB]) for details
 
 Function 4: extract_municipality_hashtags
     - Processes pandas dataframe (twitter data) to extract municipalities and hashtags contained in tweets.
