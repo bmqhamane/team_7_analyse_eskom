@@ -31,7 +31,8 @@ Function 6: word_splitter
 	- See docstring ([SHIFT]+[TAB]) for details.  
 
 Function 7: stop_words_remover
-
+	- Processes pandas Dataframe (twitter data) and removes all [English] stop words and retuunrs a new column 'Without Stop Words'.
+	- See docstring ([SHIFT]+[TAB]) for details.  
 
 <span style="color: gray;">pip git+https://github.com/bmqhamane/team_7_analyse_eskom.git</span> 
 
