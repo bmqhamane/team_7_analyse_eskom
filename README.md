@@ -10,6 +10,8 @@ Standard code refinement has been applied selectively, trading refinement off wi
 -Short description
 
 Function 1: dictionary_of_metrics
+    - Given a list that contains only numerical entries. Calculate: mean, median, variance, standard deviation, minimum and maximum.
+    - See docstring ([SHIFT]+[TAB]) for deatils
 
 Function 2: five_num_summary
 
