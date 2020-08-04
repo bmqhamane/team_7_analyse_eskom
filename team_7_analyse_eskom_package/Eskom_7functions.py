@@ -212,12 +212,18 @@ def number_of_tweets_per_day(df):
 # Function 6:
 
 def word_splitter(df):
-    Split = []
-    for index, row in df.iterrows():
-        split_tweets = row['Tweets'].split()
-        split_tweets_lowercase = list(map(lambda x: x.lower(), split_tweets))
-        split_tweets_list = Split.append(split_tweets_lowercase)
-    df['Split Tweets'] = Split
+    """
+    returns pandas DataFrame with a new column 'Split Tweets' that contains tweets as list of seperate words.
+    
+    Args:
+        df (pandas(pd) DataFrame): pd.DataFrame object with atleast one column:
+        'Tweets': Contains strings (pd.Series objects) of individual tweets (one tweet per value).
+    Return:
+           new pandas DataFrame with a new column:
+           'Split Tweets':A list of seperate words, from *.split().
+    """
+    words = df['Tweets']
+    df['Split Tweets'] = [word.lower().split() for word in words]
     return df
 
 # Function 7:
