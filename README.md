@@ -1,6 +1,9 @@
 # mypackage 
 ---
 
+## Introduction
+----
+
 This package contains 7 functions (details below) that satisfy the requirements of the Analyse Sprint Predict.
 Standard code refinement has been applied selectively, trading refinement off with readability when no large benefit (computational resources) was possible.
 
@@ -10,30 +13,29 @@ Standard code refinement has been applied selectively, trading refinement off wi
 Function 1: dictionary_of_metrics
     - Given a list that contains only numerical entries. Calculate: mean, median, variance, standard deviation, minimum and maximum.
     - See docstring ([SHIFT]+[TAB]) for deatils
-----
 
 Function 2: five_num_summary
     - Given a list that contains only numerical entries. Takes in a list of integers and return a dictionary of : max, median, min, q1 and q3.
     - see docstring ([SHIFT]+[TAB]) for details.
-----
+
 
 Function 3: date_parser
-----
+
 
 Function 4: extract_municipality_hashtags
     - Processes pandas dataframe (twitter data) to extract municipalities and hashtags contained in tweets.
     - See docstring ([SHIFT]+[TAB]) for details.
-----
+
 
 Function 5: number_of_tweets_per_day
     - Processes pandas dataframe (twitter data) to extract the number of tweets per day.
     - See docstring ([SHIFT]+[TAB]) for details.
-----
+
 
 Function 6: word_splitter
 	- Processes pandas DataFrame (twitter data) and adds a new column with tweets as list of words.
 	- See docstring ([SHIFT]+[TAB]) for details.  
-----
+
 
 Function 7: stop_words_remover
 	- Processes pandas Dataframe (twitter data) and removes all [English] stop words and retuunrs a new column 'Without Stop Words'.
@@ -71,4 +73,4 @@ The source code for this package is hosted on github: git+https://github.com/bmq
 License
 MIT
 
-[![EDSA](https://img.shields.io/travis/numpy/numpy/master.svg?label=Travis%20CI)](explore-datascience.net)
+[![EDSA](https://img.shields.io/travis/numpy/numpy/master.svg?label=EDSA%20CI)](explore-datascience.net)
