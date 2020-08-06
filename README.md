@@ -8,7 +8,6 @@ This package contains 7 functions (details below) that satisfy the requirements 
 Standard code refinement has been applied selectively, trading refinement off with readability when no large benefit (computational resources) was possible.
 
 ## Function details
-----
 
 Function 1: dictionary_of_metrics
     - Given a list that contains only numerical entries. Calculate: mean, median, variance, standard deviation, minimum and maximum.
