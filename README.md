@@ -1,8 +1,12 @@
 # EDSA Sprint: Analyse - 7functions.py
 
+## Introduction
 
-7functions is a small Python package that allows one to do 7 basic data analyses on pandas.DataFrame structured twitter data. Each analysis/function has specific input/output as seen in their respective dosctrings.
+7functions is a small Python package that allows one to do 7 basic data analyses on pandas.DataFrame structured twitter data. 
+Each analysis/function has specific input/output as seen in their respective dosctrings.
 
+Note: This package was created as part of team 7's project deliverables for the Analyse sprint at the Explore Data Science Academy (Johannesburg July 2020 cohort)
+and is not intended for use outside of this learning environment.
 
 ## Prerequisites
 
@@ -28,7 +32,7 @@ pip install git+https://github.com/bmqhamane/team_7_analyse_eskom_package.git
 
 ## Using 7functions
 
-To use <project_name>, follow these steps:
+To use 7functions, follow these steps:
 
 ```
 from 7functions import <name>
