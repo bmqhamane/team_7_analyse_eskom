@@ -41,7 +41,7 @@ Function 7: stop_words_remover
 	- Processes pandas Dataframe (twitter data) and removes all [English] stop words and retuunrs a new column 'Without Stop Words'.
 	- See docstring ([SHIFT]+[TAB]) for details.  
 
-<span style="color: gray;">pip git+https://github.com/bmqhamane/team_7_analyse_eskom.git</span> 
+
 
 ## Where to get this package
 ---- 
@@ -73,4 +73,4 @@ The source code for this package is hosted on github: git+https://github.com/bmq
 License
 MIT
 
-[![EDSA](https://img.shields.io/travis/numpy/numpy/master.svg?label=EDSA%20CI)](explore-datascience.net)
+
