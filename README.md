@@ -52,23 +52,22 @@ The source code for this package is hosted on github: git+https://github.com/bmq
 
 ## Installing this package from Github
 ----
-<span style="color: gray;">pip git+https://github.com/bmqhamane/team_7_analyse_eskom.git</span> 
+
 
 ### Updating this package from Github
 ----
-<span style="color: gray;">pip install --upgrade git+https://github.com/bmqhamane/team_7_analyse_eskom.git</span> 
 
 ## How to use this package
 ----
 -describe usage and cases
 
-<span style="color: gray;">pip install --upgrade git+https://github.com/bmqhamane/team_7_analyse_eskom.git</span> 
+
 
 ## Authors
 ----
 -names alphabetically with email addrs
 
-<span style="color: gray;">pip git+https://github.com/bmqhamane/team_7_analyse_eskom.git</span> 
+
 
 License
 MIT
