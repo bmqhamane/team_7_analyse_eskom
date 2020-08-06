@@ -26,7 +26,7 @@ Alternatively a simpler install using pip:
 pip install git+https://github.com/bmqhamane/team_7_analyse_eskom_package.git
 ```
 
-## Using <project_name>
+## Using 7functions
 
 To use <project_name>, follow these steps:
 
