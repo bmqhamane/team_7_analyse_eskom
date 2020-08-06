@@ -1,74 +1,72 @@
-# mypackage 
----
+# EDSA Sprint: Analyse - 7functions.py
 
-## Introduction
-----
 
-This package contains 7 functions (details below) that satisfy the requirements of the Analyse Sprint Predict.
-Standard code refinement has been applied selectively, trading refinement off with readability when no large benefit (computational resources) was possible.
+7functions is a small Python package that allows one to do 7 basic data analyses on pandas.DataFrame structured twitter data. Each analysis/function has specific input/output as seen in their respective dosctrings.
 
-## Function details
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+<!--- These are just example requirements. Add, duplicate or remove as required --->
+* This package is written in Pyhon3 and requires a complementary interpreter.
+* This packages requires the latest (as of 2020/08/04) versions of Numpy and Pandas.
+	* https://numpy.org/
+	* https://pandas.pydata.org/
+
+## Installing 7functions
+
+To install 7functions, follow these steps:
+
+We reccomend installing this package with conda (from anaconda). 
+Read more about the anaocnda project at https://www.anaconda.com/
+
+Alternatively a simpler install using pip:
+
+```
+pip install git+https://github.com/bmqhamane/team_7_analyse_eskom_package.git
+```
+
+## Using <project_name>
+
+To use <project_name>, follow these steps:
+
+```
+from 7functions import <name>
+```
 
 Function 1: dictionary_of_metrics
-    - Given a list that contains only numerical entries. Calculate: mean, median, variance, standard deviation, minimum and maximum.
-    - See docstring ([SHIFT]+[TAB]) for deatils
 
 Function 2: five_num_summary
-    - Given a list that contains only numerical entries. Takes in a list of integers and return a dictionary of : max, median, min, q1 and q3.
-    - see docstring ([SHIFT]+[TAB]) for details.
-
 
 Function 3: date_parser
 
-
 Function 4: extract_municipality_hashtags
-    - Processes pandas dataframe (twitter data) to extract municipalities and hashtags contained in tweets.
-    - See docstring ([SHIFT]+[TAB]) for details.
-
 
 Function 5: number_of_tweets_per_day
-    - Processes pandas dataframe (twitter data) to extract the number of tweets per day.
-    - See docstring ([SHIFT]+[TAB]) for details.
-
 
 Function 6: word_splitter
-	- Processes pandas DataFrame (twitter data) and adds a new column with tweets as list of words.
-	- See docstring ([SHIFT]+[TAB]) for details.  
-
 
 Function 7: stop_words_remover
-	- Processes pandas Dataframe (twitter data) and removes all [English] stop words and retuunrs a new column 'Without Stop Words'.
-	- See docstring ([SHIFT]+[TAB]) for details.  
+Note: See docstring for function specifics.
+
+## Contributing to 7functions
+<!--- If your README is long or you have some specific process or steps you want contributors to follow, consider creating a separate CONTRIBUTING.md file--->
+No external contributors necessary. This is a limited package with no future updates planned.
+
+See https://help.github.com for further reading on GitHub.
+
+## Contributors
+
+Thanks to the following people who have contributed to this project: **TEAM 7 ADD YOUR NAME ALPHABETICALLY**
+
+* 
+* Jacques Carstens | carstensjacques3@gmail.com
+* 
+* 
+* 
 
 
+## License
+<!--- If you're not sure which open license to use see https://choosealicense.com/--->
 
-## Where to get this package
----- 
-The source code for this package is hosted on github: git+https://github.com/bmqhamane/team_7_analyse_eskom_package.git
-
-<span style="color: gray;">python setup.py sdist</span> 
-
-
-## Installing this package from Github
-----
-
-
-### Updating this package from Github
-----
-
-## How to use this package
-----
--describe usage and cases
-
-
-
-## Authors
-----
--names alphabetically with email addrs
-
-
-
-License
-MIT
-
-
+This project uses the following license: MIT (https://opensource.org/licenses/MIT).
