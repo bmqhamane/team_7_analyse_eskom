@@ -2,10 +2,12 @@
 
 ## Introduction
 
-7functions is a small Python package that allows one to do 7 basic data analyses on pandas.DataFrame structured twitter data. 
-Each analysis/function has specific input/output as seen in their respective dosctrings.
+7functions is a small Python package that allows one to do 7 basic data analyses on lists (functions 1-3)
+and pandas.DataFrame structured twitter data (fucntions 4-7). Each analysis/function has specific 
+input/output as seen in their respective dosctrings.
 
-Note: This package was created as part of team 7's project deliverables for the Analyse sprint at the Explore Data Science Academy (Johannesburg July 2020 cohort)
+Note: This package was created as part of team 7's project deliverables for the Analyse sprint at the 
+Explore Data Science Academy (Johannesburg July 2020 cohort)
 and is not intended for use outside of this learning environment.
 
 ## Prerequisites
