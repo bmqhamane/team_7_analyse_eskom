@@ -1,0 +1,1 @@
+from team_7_analyse_eskom_package.Eskom_7functions import *
