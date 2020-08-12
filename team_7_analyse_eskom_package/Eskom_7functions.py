@@ -51,26 +51,12 @@ stop_words_dict = {
 
 """
 To do:
-<<<<<<< HEAD
-- Shorted package name
-- Refine functions (read updated readme file)
 - Hide .egg-info from package (.gitignore)
-- Add function descriptions
 - Add error handling code (if time)
 - Docstring (1-5 done)
 - Complete test.py assertions/tests
 - Complete if __init_ == __main__...
 - Populate readme with your function (use same format as F4/5)
-=======
-- Shorted package name (?)
-- Refine functions (read updated reame file)
-- Refine package
-- Add function descriptions (please use f4/5's format)
-- Add error handling code (if time)
-- Docstring (1-5 done)
-- Complete test.py assertionstests
-- Add __init__=__main__...
->>>>>>> dev
 """
 
 
@@ -153,20 +139,24 @@ def date_parser(dates):
 
 def extract_municipality_hashtags(df):
 
-    """Return input pandas DataFrame with two new columns('municipality' and 'hashtags').
-    
-    Args: 
+    """Return input pandas DataFrame with two new columns('municipality' and
+      'hashtags').
+
+    Args:
         df (pandas(pd) DataFrame): pd.DataFrame object with at least one column:
-            'Tweets': Contains strings (pd.Series objects) of individual tweets (one tweet per value).
-    
+            'Tweets': Contains strings (pd.Series objects) of individual tweets
+             (one tweet per value).
+
     Return input pandas DataFrame with two new columns:
-        'municipality': Contains name of municipality (lowercase) if present in 'Tweet' column (else NaN value).
-        'hashtags': Contains hashtags (if present - lowercase) from 'Tweets' column (else NaN vlaue).
+        'municipality': Contains name of municipality (lowercase) if present in
+        'Tweet' column (else NaN value).
+        'hashtags': Contains hashtags (if present - lowercase) from 'Tweets'
+         column (else NaN vlaue).
     """
 
     municipality_list = []
     hashtags_list = []
-    
+
     for index, row in df.iterrows():
         split_tweets = row['Tweets'].split()
         row_mun_list = []
@@ -180,12 +170,14 @@ def extract_municipality_hashtags(df):
                 pass
         municipality_list.append(row_mun_list)
         hashtags_list.append(row_hasht_list)
-            
+
     df['municipality'] = municipality_list
     df['hashtags'] = hashtags_list
-    df['municipality'] = df['municipality'].map(lambda word: np.nan if word == '[]' else word)
-    df['hashtags'] = df['hashtags'].map(lambda word: np.nan if word == '[]' else word)
-    
+    df['municipality'] = df['municipality'].map(lambda word: np.nan
+                                                if word == '[]' else word)
+    df['hashtags'] = df['hashtags'].map(lambda word: np.nan
+                                        if word == '[]' else word)
+
     return df
 
 # Function 5:
@@ -194,16 +186,20 @@ def number_of_tweets_per_day(df):
 
     """Return new pd.DataFrame object with 'Date' as index column
         and 'Tweets' as column.
-    
-    Args: 
+
+    Args:
         df (pandas(pd) DataFrame): pd.DataFrame object with at least two columns:
-            'Tweets': Contains strings (pd.Series objects) of individual tweets (one tweet per value).
-            'Date': Column of DateTime objects stating DateTime of corresponding tweet.
+            'Tweets': Contains strings (pd.Series objects) of individual tweets
+             (one tweet per value).
+            'Date': Column of DateTime objects stating DateTime of corresponding
+             tweet.
 
     Return new pandas DataFrame with two new columns:
         'Tweets': Count of tweets per 'Date', from DataFrame.groupby().count().
-        'Date' (index column): Column of truncated DateTime objects in 'yyyy-mm-dd' format.
+        'Date' (index column): Column of truncated DateTime objects in
+            'yyyy-mm-dd' format.
     """
+
     date = [item.split(" ")[0] for item in df['Date'].values]
     df['Date'] = date
     df1 = df.groupby(df['Date']).count()
